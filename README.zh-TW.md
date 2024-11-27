@@ -1,7 +1,7 @@
-# KK未使用模組移除/打包工具(KK Unused Mods Remover/Packer)
+# 戀活未使用模組移除/打包工具(Koikatsu Unused Mods Remover/Packer)
 
 ## 簡介
-KK未使用模組移除/打包工具(KK Unused Mods Remover/Packer)用於管理戀愛活動（簡稱戀活）中的未使用模組。該工具支援偵測未使用的模組，並進行移除、打包或還原操作。  
+戀活未使用模組移除/打包工具(Koikatsu Unused Mods Remover/Packer)用於管理戀活(Koikatsu，簡寫為KK)中的未使用模組。該工具支援偵測未使用的模組，並進行移除、打包或還原操作。 
 本工具支援以下語言（程式中顯示的文字為機器翻譯之結果）：  
 - [English](README.md)  
 - [繁體中文(Traditional Chinese)](README.zh-TW.md)  
