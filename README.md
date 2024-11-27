@@ -3,7 +3,7 @@
 ## Introduction
 The **KK Unused Mods Remover/Packer** is a tool designed for managing unused mods in Koikatsu (KK). This tool supports detecting unused mods and provides options to remove, pack, or restore them.  
 The tool supports the following languages (the program's text is machine-translated):  
-- [English](README.en.md)  
+- [English](README.md)  
 - [繁體中文(Traditional Chinese)](README.zh-TW.md)  
 - 简体中文(Simplified Chinese)  
 - 日本語(Japanese)  
