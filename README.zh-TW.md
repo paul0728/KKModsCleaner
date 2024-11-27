@@ -11,7 +11,7 @@ KK未使用模組移除/打包工具(KK Unused Mods Remover/Packer)用於管理�
 - Русский(Russian)  
 
 ## 下載
-- 從 [release](https://github.com/KKUnusedModsRemoverPacker/releases) 下載最新版本程式。  
+- 從 [release](https://github.com/paul0728/KKUnusedModsRemoverPacker/releases/) 下載最新版本程式。  
 - 執行 `KK_mod_remover_packer_mutilang.exe`。
 
 ## 使用步驟
