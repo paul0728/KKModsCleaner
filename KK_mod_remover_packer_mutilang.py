@@ -31,7 +31,7 @@ import chardet
 class Localizations:
     LANGUAGES = {
         'en': {
-            'title': 'KK Unused Mods Remover/Packer',
+            'title': 'Koikatsu Unused Mods Remover/Packer',
             'upload_text': 'Drag and drop your CSV file here or click to upload',
             'detect': 'Detect',
             'mod_path': 'Mod Path',
@@ -66,7 +66,7 @@ class Localizations:
             'success_csv_upload': 'CSV uploaded successfully!'
         },
         'zh-tw': {
-            'title': 'KK 未使用模組移除/打包工具',
+            'title': '戀活未使用模組移除/打包工具',
             'upload_text': '將CSV檔案拖曳至此處或點擊上傳',
             'detect': '偵測',
             'mod_path': '模組路徑',
@@ -101,7 +101,7 @@ class Localizations:
             'success_csv_upload': 'CSV上傳成功！'
         },
         'zh-cn': {
-            'title': 'KK 未使用模组移除/打包工具',
+            'title': '恋活未使用模组移除/打包工具',
             'upload_text': '将CSV文件拖拽至此处或点击上传',
             'detect': '检测',
             'mod_path': '模组路径',
@@ -136,7 +136,7 @@ class Localizations:
             'success_csv_upload': 'CSV上传成功！'
         },
         'ja': {
-            'title': 'KK 未使用のMOD削除/パックツール',
+            'title': 'コイカツ未使用MOD削除/パックツール',
             'upload_text': 'CSVファイルをここにドラッグ＆ドロップするかアップロード',
             'detect': '検出',
             'mod_path': 'MODパス',
@@ -171,7 +171,7 @@ class Localizations:
             'success_csv_upload': 'CSVのアップロードに成功しました！'
         },
         'ko': {
-            'title': 'KK 미사용 모드 제거/패킹 도구',
+            'title': '코이카츠 미사용 모드 제거/패킹 도구',
             'upload_text': 'CSV 파일을 여기에 끌어다 놓거나 클릭하여 업로드',
             'detect': '감지',
             'mod_path': '모드 경로',
@@ -206,7 +206,7 @@ class Localizations:
             'success_csv_upload': 'CSV 업로드 성공!'
         },
         'ru': {
-            'title': 'KK Инструмент удаления/упаковки неиспользуемых модов',
+            'title': 'Koikatsu Инструмент удаления/упаковки неиспользуемых модов',
             'upload_text': 'Перетащите CSV-файл сюда или нажмите для загрузки',
             'detect': 'Обнаружить',
             'mod_path': 'Путь к модам',
