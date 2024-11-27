@@ -3,12 +3,12 @@
 ## 簡介
 KK未使用模組移除/打包工具(KK Unused Mods Remover/Packer)用於管理戀愛活動（簡稱戀活）中的未使用模組。該工具支援偵測未使用的模組，並進行移除、打包或還原操作。  
 本工具支援以下語言（程式中顯示的文字為機器翻譯之結果）：  
-- [英文(English)](README.en.md)  
+- [English](README.en.md)  
 - [繁體中文(Traditional Chinese)](README.zh-TW.md)  
-- 簡體中文(Simplified Chinese)  
-- 日文(Japanese)  
-- 韓文(Korean)  
-- 俄文(Russian)  
+- 简体中文(Simplified Chinese)  
+- 日本語(Japanese)  
+- 한국어(Korean)  
+- Русский(Russian)  
 
 ## 下載
 - 從 [release](https://github.com/KKUnusedModsRemoverPacker/releases) 下載最新版本程式。  
