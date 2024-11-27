@@ -11,7 +11,7 @@ The tool supports the following languages (the program's text is machine-transla
 - Русский(Russian)  
 
 ## Download
-- Download the latest version from the [releases page](https://github.com/KKUnusedModsRemoverPacker/releases).  
+- Download the latest version from the [releases page](https://github.com/paul0728/KKUnusedModsRemoverPacker/releases/).  
 - Execute `KK_mod_remover_packer_mutilang.exe`.
 
 ## How to Use
