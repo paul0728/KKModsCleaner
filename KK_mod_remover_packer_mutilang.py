@@ -254,7 +254,7 @@ class KKModTool:
 
         # Configure main window
         self.master.title(self.get_localized_text('title'))
-        self.master.iconbitmap(r"E:\pythonwork\KK_Mod_Remover_and_Packer\kk_unused_mods_remover_packer_icon.ico")
+        self.master.iconbitmap(r"E:\pythonwork\KKUnusedModsRemoverPacker\KK_unused_mods_remover_packer_icon.ico")
         self.master.geometry("600x500")
         self.master.configure(bg='#f0f0f0')
 
