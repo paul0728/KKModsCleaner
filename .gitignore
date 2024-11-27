@@ -1,0 +1,21 @@
+# 忽略 legacy 和 test_data 資料夾
+legacy/
+test_data/
+
+# 忽略特定檔案
+hook-tkinterdnd2.py
+KK_mod_remover_packer_mutilang.exe
+
+
+# 忽略暫存或系統檔案
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.DS_Store
+Thumbs.db
+
+# 忽略壓縮檔案
+*.zip
+*.tar.gz
+*.7z
