@@ -18,19 +18,19 @@ KK模組清理工具(KK Mods Cleaner)用於管理戀活(Koikatsu，簡寫為KK)�
 - 執行 `KK_mods_cleaner.exe`。
 
 ## 使用步驟
-1. **上傳 mod 數據 csv**：
+1. **上傳模組數據 .csv 檔案**：
    - 開啟 [KKManager](https://github.com/IllusionMods/KKManager) -> 選擇資料夾(例如 : male, female) -> `工具` -> `Export to csv...` -> `Zipmod usage(including unused)`
      
      ![image](https://github.com/user-attachments/assets/38dfa3fd-14dd-459d-aef7-94d38aea2841)  
-   - 上傳至 KK Unused Mods Remover/Packer 的 csv 檔案上傳區域。
+   - 上傳至 KK Mods Cleaner 的 .csv 檔案上傳區域。
 2. **設定閾值(最小卡片使用次數)**
-   - 預設為0
-   - 無限制輸入範圍   
+   - 預設為0。
+   - 無限制輸入範圍。
 
 3. **偵測未使用模組**：
    - 按下 `偵測` 按鈕，偵測是否有未使用到的模組。
-   - 會`偵測`出模組之卡片使用次數在閾值**以下**(含閾值)的模組
-   - `偵測`後在閾值設定方塊的右邊會出現模組之卡片使用次數**最小值**以及**最大值**
+   - 會`偵測`出模組之卡片使用次數在閾值**以下**(含閾值)的模組。
+   - `偵測`後在閾值設定方塊的右邊會出現模組之卡片使用次數**最小值**以及**最大值**。
 
 4. **輸入模組路徑**：
    - 輸入模組所在資料夾，可手動輸入或使用 `瀏覽` 按鈕選擇。
