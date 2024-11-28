@@ -254,7 +254,7 @@ class KKModTool:
 
         # Configure main window
         self.master.title(self.get_localized_text('title'))
-        self.master.iconbitmap(r"E:\pythonwork\KKUnusedModsRemoverPacker\KK_unused_mods_remover_packer_icon.ico")
+        self.master.iconbitmap(self.get_resource_path("KK_unused_mods_remover_packer_icon.ico"))
         self.master.geometry("600x500")
         self.master.configure(bg='#f0f0f0')
 
@@ -276,6 +276,20 @@ class KKModTool:
         # Configure as drop target
         master.drop_target_register(tkdnd.DND_FILES)
         master.dnd_bind('<<Drop>>', self.handle_drop)
+
+    def get_resource_path(self, relative_path):
+        """
+        獲取資源的絕對路徑，兼容 PyInstaller 的打包方式。
+        """
+        try:
+            # PyInstaller 將資源打包到一個臨時文件夾中
+            base_path = sys._MEIPASS
+        except AttributeError:
+            # 在未打包的開發環境中，使用相對路徑
+            base_path = os.path.abspath(".")
+
+        return os.path.join(base_path, relative_path)
+
 
 
     def handle_drop(self, event):
