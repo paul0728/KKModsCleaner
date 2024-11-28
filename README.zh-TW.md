@@ -15,7 +15,7 @@ KK模組清理工具(KK Mods Cleaner)用於管理戀活(Koikatsu，簡寫為KK)�
 
 ## 下載
 - 從 [release](https://github.com/paul0728/KKUnusedModsRemoverPacker/releases/) 下載最新版本程式。  
-- 執行 `KK_mod_remover_packer_mutilang.exe`。
+- 執行 `KK_mods_cleaner.exe`。
 
 ## 使用步驟
 1. **上傳 mod 數據 csv**：
@@ -29,7 +29,7 @@ KK模組清理工具(KK Mods Cleaner)用於管理戀活(Koikatsu，簡寫為KK)�
 
 3. **偵測未使用模組**：
    - 按下 `偵測` 按鈕，偵測是否有未使用到的模組。
-   - 會`偵測`出模組之卡片使用次數在閾值以下(含閾值)的模組
+   - 會`偵測`出模組之卡片使用次數在閾值**以下**(含閾值)的模組
    - `偵測`後在閾值設定方塊的右邊會出現模組之卡片使用次數**最小值**以及**最大值**
 
 4. **輸入模組路徑**：
