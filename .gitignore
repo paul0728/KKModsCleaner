@@ -5,7 +5,7 @@ test_data/
 # 忽略特定檔案
 hook-tkinterdnd2.py
 KK_mod_remover_packer_mutilang.exe
-
+KK_unused_mods_remover_packer_icon.png
 
 # 忽略暫存或系統檔案
 *.pyc
