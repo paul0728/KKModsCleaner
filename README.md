@@ -17,11 +17,11 @@ This tool supports the following languages (text in the program is machine-trans
 - Run `KK_mods_cleaner.exe`.
 
 ## Steps to Use
-1. **Upload Mod Data CSV**:
+1. **Upload Mod Data .csv file**:
    - Open [KKManager](https://github.com/IllusionMods/KKManager) -> Select a folder (e.g., male, female) -> `Tools` -> `Export to csv...` -> `Zipmod usage (including unused)`
      
      ![image](https://github.com/user-attachments/assets/38dfa3fd-14dd-459d-aef7-94d38aea2841)  
-   - Upload the CSV file to KK Mods Cleaner in the file upload section.
+   - Upload the .csv file to KK Mods Cleaner in the file upload section.
 
 2. **Set Threshold (Minimum Card Usage Count)**:
    - Default value: 0  
