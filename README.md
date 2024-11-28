@@ -1,64 +1,72 @@
-# KK Unused Mods Remover/Packer
+⚠ **Name Change Notice**: To better reflect its functionality, this tool has been renamed from `KKUnusedModsRemoverPacker` to `KKModsCleaner`.
+
+# KK Mods Cleaner
 
 ## Introduction
-The **KK Unused Mods Remover/Packer** is a tool designed for managing unused mods in Koikatsu (KK). This tool supports detecting unused mods and provides options to remove, pack, or restore them.  
-The tool supports the following languages (the program's text is machine-translated):  
+KK Mods Cleaner is a tool for managing mods in Koikatsu (KK). It supports detecting mods with usage below a user-defined threshold (minimum card usage count) and allows removal, packing, or restoration operations.  
+This tool supports the following languages (text in the program is machine-translated):  
 - [English](README.md)  
-- [繁體中文(Traditional Chinese)](README.zh-TW.md)  
-- 简体中文(Simplified Chinese)  
-- 日本語(Japanese)  
-- 한국어(Korean)  
-- Русский(Russian)  
+- [繁體中文 (Traditional Chinese)](README.zh-TW.md)  
+- 简体中文 (Simplified Chinese)  
+- 日本語 (Japanese)  
+- 한국어 (Korean)  
+- Русский (Russian)  
 
 ## Download
-- Download the latest version from the [releases page](https://github.com/paul0728/KKUnusedModsRemoverPacker/releases/).  
-- Execute `KK_mod_remover_packer_mutilang.exe`.
+- Download the latest release from [releases](https://github.com/paul0728/KKUnusedModsRemoverPacker/releases/).  
+- Run `KK_mods_cleaner.exe`.
 
-## How to Use
-1. **Upload mod data CSV**:
-   - Open [KKManager](https://github.com/IllusionMods/KKManager) -> Select folder(e.g., male, female) -> `Tools` -> `Export to csv...` -> `Zipmod usage (including unused)`  
+## Steps to Use
+1. **Upload Mod Data CSV**:
+   - Open [KKManager](https://github.com/IllusionMods/KKManager) -> Select a folder (e.g., male, female) -> `Tools` -> `Export to csv...` -> `Zipmod usage (including unused)`
      
      ![image](https://github.com/user-attachments/assets/38dfa3fd-14dd-459d-aef7-94d38aea2841)  
-   - Upload the generated CSV file to the upload section of the KK Unused Mods Remover/Packer.
+   - Upload the CSV file to KK Mods Cleaner in the file upload section.
 
-2. **Detect unused mods**:
-   - Click the `Detect` button to identify any unused mods.
+2. **Set Threshold (Minimum Card Usage Count)**:
+   - Default value: 0  
+   - No restrictions on input range.
 
-3. **Input mod path**:
-   - Specify the folder where your mods are stored. You can manually enter the path or select it using the `Browse` button.
+3. **Detect Unused Mods**:
+   - Click the `Detect` button to find unused mods.
+   - 'Detects' mods with card usage counts **below** or **equal to** the threshold.
+   - After detection, the **minimum** and **maximum** card usage counts of the mods are displayed next to the threshold input box.
 
-4. **Select an action (Action menu)**:
-   - Use the dropdown menu to choose one of the following options:
-     - **Pack**: Move all unused mods to an `unused mods` folder (it will be created if it doesn't already exist).
-     - **Undo Pack**: Restore mods previously moved to the `unused mods` folder back to their original location.
-     - **Remove**: Delete all detected unused mods (this will not affect the `unused mods` folder).
+4. **Input Mod Path**:
+   - Input the folder where the mods are located, either manually or using the `Browse` button.
 
-5. **Check "Custom Mods Only" (optional)**:
-   - **Unchecked**: Perform actions on all mods within the folder (including subfolders).
-   - **Checked**: Restrict actions to mods located directly in the root folder of the specified mod path. Subfolders will be ignored.
+5. **Select an Action**:
+   - Use the dropdown menu to select one of the following actions:
+     - **Pack**: Move unused mods to the `unused mods` folder (created automatically if it doesn’t exist).
+     - **Restore Pack**: Restore mods moved to the `unused mods` folder back to their original location.
+     - **Remove**: Delete all detected unused mods (does not affect the `unused mods` folder).
 
-6. **Execute the selected action**:
-   - Click the `Run` button to perform the chosen action.
+6. **Enable Custom Mods Only Checkbox (Optional)**:
+   - **Unchecked**: Operates on all files in the mod folder (including subfolders).  
+   - **Checked**: Limits actions to mods in the root of the `mod path` directory, excluding subfolders.
+
+7. **Execute Selected Action**:
+   - Click the `Execute` button to perform the selected action.
 
 ## Notes
-- Clicking `Remove` will display a confirmation dialog. However, **`Remove` actions cannot be undone**. Only `Pack` actions can be undone, so use caution.
-- The program **does not record** the original paths of mods moved during the `Pack` action. If you close the program, **the `Undo Pack` option will no longer be available**.
+- A confirmation dialog appears when clicking `Remove`. However, **`Remove` cannot be undone**. Only the Pack option is reversible, so use with caution.
+- The program **does not record** the original paths of mods after packing. Therefore, if the program is closed after packing, **restoring packed mods will not be possible** the next time it is opened.
 
-## Potential Issues
-1. **Flagged as malicious software**:
-   - Temporarily disable your antivirus software if it flags the program.
+## Possible Issues
+1. **Detected as Malware**:
+   - Temporarily disable antivirus software.
 
-## Unnecessary Details
-- Mods that were not originally used by any cards will still show 'Cards with usages' as 0 even if the `Custom Mods Only` option is selected.
-- Disabling a mod will not change its 'Cards with usages' count.
-- KKManager exports only one instance of a mod with the same 'GUID' (likely determined by dictionary order). In tests with the same mod in versions 1.0 and 1.1 (with 1.1 containing different files), only version 1.0 was exported. Export order is unrelated to whether the mod is enabled.
-- Different versions of the same mod will have the same 'Cards with usages' count.
+## Details You Don't Need to Know
+- Mods that are already unused will still show 'Cards with usages' as 0 even if the checkbox is checked.
+- Disabling mods does not affect the 'Cards with usages' count.
+- In KKManager’s exported mod file, only one 'GUID' per mod is exported (likely determined by dictionary order). Testing with versions 1.0 and 1.1 of the same mod shows that only version 1.0 is exported, regardless of whether version 1.1 includes additional files. Export order is also unrelated to mod activation status.
+- Different versions of the same mod will correspond to the same 'Cards with usages' count.
 
 ## Contributing
-This project is open-source, and we welcome contributions! If you have ideas for improvements or new features, please fork the repository and submit a Pull Request (PR).
+This project is open-source. Contributions are welcome! If you have ideas for improvements or new features, please fork the project and submit a Pull Request (PR).
 
 ## License
-This program is released under the [MIT License](https://opensource.org/licenses/MIT).
+This program is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Contact
-For any issues, please use the GitHub Issues section to report them.
+For questions, please use the GitHub Issues feature.
