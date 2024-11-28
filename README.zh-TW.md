@@ -1,10 +1,10 @@
 
 ⚠ **名稱變更通知**: 為了能更加反映此工具功能，本資料庫已從 `KKUnusedModsRemoverPacker` 更名為 `KKModsCleaner`。
 
-# KK模組清理工具(KK Unused Mods Remover/Packer)
+# KK模組清理工具(KK Mods Cleaner)
 
 ## 簡介
-KK模組清理工具(KK Unused Mods Remover/Packer)用於管理戀活(Koikatsu，簡寫為KK)中的模組。該工具支援偵測使用次數在自設閾值(最小卡片使用次數)以下的模組，並進行移除、打包或還原操作。 
+KK模組清理工具(KK Mods Cleaner)用於管理戀活(Koikatsu，簡寫為KK)中的模組。該工具支援偵測使用次數在自設閾值(最小卡片使用次數)以下的模組，並進行移除、打包或還原操作。 
 本工具支援以下語言（程式中顯示的文字為機器翻譯之結果）：  
 - [English](README.md)  
 - [繁體中文(Traditional Chinese)](README.zh-TW.md)  
