@@ -16,7 +16,7 @@ The tool supports the following languages (the program's text is machine-transla
 
 ## How to Use
 1. **Upload mod data CSV**:
-   - Open [KKManager](https://github.com/IllusionMods/KKManager) -> `Tools` -> `Export to csv...` -> `Zipmod usage (including unused)`  
+   - Open [KKManager](https://github.com/IllusionMods/KKManager) -> Select folder(e.g., male, female) -> `Tools` -> `Export to csv...` -> `Zipmod usage (including unused)`  
      
      ![image](https://github.com/user-attachments/assets/38dfa3fd-14dd-459d-aef7-94d38aea2841)  
    - Upload the generated CSV file to the upload section of the KK Unused Mods Remover/Packer.

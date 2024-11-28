@@ -16,7 +16,7 @@
 
 ## 使用步驟
 1. **上傳 mod 數據 csv**：
-   - 開啟 [KKManager](https://github.com/IllusionMods/KKManager) -> `工具` -> `Export to csv...` -> `Zipmod usage(including unused)`
+   - 開啟 [KKManager](https://github.com/IllusionMods/KKManager) -> 選擇資料夾(例如 : male, female) -> `工具` -> `Export to csv...` -> `Zipmod usage(including unused)`
      
      ![image](https://github.com/user-attachments/assets/38dfa3fd-14dd-459d-aef7-94d38aea2841)  
    - 上傳至 KK Unused Mods Remover/Packer 的 csv 檔案上傳區域。
